@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <style>
-    body {}
+   body{
+    background-color: #040a2a;
+   }
 
     .stu {
       height: 50px;
@@ -45,6 +47,7 @@
       font-style: italic;
       border-inline-color: red;
       margin-top: 10px;
+      background-color: #b0a1a1;
 
 
 
@@ -130,11 +133,17 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      
 
 
 
 
 
+    }
+    .main-container{
+      
+      border-radius: 10px;
+     
     }
 
     .btn {
@@ -173,8 +182,10 @@
       studentsContainer.innerHTML += ` <div class = "stu">${i + 1})${students[i]
         }</div>`;
     }
+    
 
   }
+  loadstudents()
 
 
   function Addnew() {
